@@ -6,7 +6,7 @@ function App() {
     username: "",
     password: "",
   });
-  const [users, setUsers] = useState([]);
+  const [users, setUsers] = useLocalStorage("users", []);
   function handleChange(event) {
     const { name, value } = event.target;
 
