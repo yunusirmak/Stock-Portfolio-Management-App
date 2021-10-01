@@ -19,7 +19,7 @@ function App() {
   }
 
   function handleSubmit(event) {
-    setUsers([...users, user]);
+    setUsers([user]);
     event.preventDefault();
   }
 
@@ -34,21 +34,16 @@ function App() {
     );
   }
 
-  const [foundUser, setFoundUser] = useState(false);
   function searchUser(event) {
-    for (var i = 0; i < users.length; i++) {
-      if (users[i].username === user.username) {
-        setFoundUser(true);
-        setUser(users[i]);
-      }
+    if (users[0].username === user.username) {
+      console.log(
+        users[0].username +
+          " does exist and it's password is " +
+          users[0].password
+      );
+    } else {
+      console.log("User does not exist");
     }
-    console.log(foundUser);
-    foundUser
-      ? console.log(
-          user.username + " does exist and it's password is " + user.password
-        )
-      : console.log("User does not exist");
-    event.preventDefault();
   }
   return (
     <div>
