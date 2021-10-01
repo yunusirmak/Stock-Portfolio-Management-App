@@ -33,6 +33,23 @@ function App() {
       </div>
     );
   }
+
+  const [foundUser, setFoundUser] = useState(false);
+  function searchUser(event) {
+    for (var i = 0; i < users.length; i++) {
+      if (users[i].username === user.username) {
+        setFoundUser(true);
+        setUser(users[i]);
+      }
+    }
+    console.log(foundUser);
+    foundUser
+      ? console.log(
+          user.username + " does exist and it's password is " + user.password
+        )
+      : console.log("User does not exist");
+    event.preventDefault();
+  }
   return (
     <div>
       <h1>Portfolio App</h1>
@@ -55,6 +72,17 @@ function App() {
       </form>
       <br />
       <div>{users.map(showUsers)}</div>
+
+      <div className="search">
+        <input
+          type="text"
+          onChange={handleChange}
+          placeholder="Username"
+          name="username"
+          value={user.username}
+        />
+        <button onClick={searchUser}>Search</button>
+      </div>
     </div>
   );
 }
