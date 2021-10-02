@@ -1,5 +1,9 @@
 import React, { useState } from "react";
 import useLocalStorage from "../hooks/useLocalStorage";
+import Register from "./Register";
+import Header from "./Header";
+import Footer from "./Footer";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 function App() {
   const [user, setUser] = useState({
@@ -14,6 +18,8 @@ function App() {
       return {
         ...prevUser,
         [name]: value,
+        balance: 10000,
+        favs: ["apple", "facebook"],
       };
     });
   }
@@ -39,7 +45,8 @@ function App() {
       console.log(
         users[0].username +
           " does exist and it's password is " +
-          users[0].password
+          users[0].password +
+          users[0].favs
       );
     } else {
       console.log("User does not exist");
@@ -47,6 +54,7 @@ function App() {
   }
   return (
     <div>
+      <Header />
       <h1>Portfolio App</h1>
       <form action="">
         <input
@@ -78,6 +86,23 @@ function App() {
         />
         <button onClick={searchUser}>Search</button>
       </div>
+      <Router>
+        <div>
+          <nav>
+            <ul>
+              <li>
+                <Link to="/register">Register</Link>
+              </li>
+            </ul>
+          </nav>
+          <Switch>
+            <Route path="/register">
+              <Register />
+            </Route>
+          </Switch>
+        </div>
+      </Router>
+      <Footer />
     </div>
   );
 }
