@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import useLocalStorage from "../hooks/useLocalStorage";
 
 function Register() {
+  const [isAuth, setisAuth] = useLocalStorage("isAuth", false);
   const [isSignUp, setSignUp] = useState(false);
 
   const [credential, setCredential] = useState({
@@ -49,8 +50,12 @@ function Register() {
       users[0].password === credential.cPassword
     ) {
       console.log("Credentials are true!");
+      setisAuth(true);
+      console.log(isAuth);
+      window.location.reload();
     } else {
       console.log("Credentials are false!");
+      setisAuth(false);
     }
     event.preventDefault();
   }
@@ -111,9 +116,7 @@ function Register() {
               name="cPassword"
               placeholder="Password"
             />
-            <a href="#" id="register-a">
-              Forgot your password?
-            </a>
+            <br />
             <button onClick={handleSignIn} class="register-button">
               Sign In
             </button>
@@ -122,9 +125,9 @@ function Register() {
         <div class="overlay-container">
           <div class="overlay">
             <div class="overlay-panel overlay-left">
-              <h1 id="register-h1">Welcome Back!</h1>
+              <h1 id="register-h1">Already Have an Account?</h1>
               <p id="register-p">
-                To keep connected with us please login with your personal info
+                To keep connected please login with your e-mail and password
               </p>
               <button
                 onClick={() => setSignUp(false)}
@@ -135,10 +138,8 @@ function Register() {
               </button>
             </div>
             <div class="overlay-panel overlay-right">
-              <h1 id="register-h1">Hello, Friend!</h1>
-              <p id="register-p">
-                Enter your personal details and start journey with us
-              </p>
+              <h1 id="register-h1">Don't Have an Account Yet?</h1>
+              <p id="register-p">You can create one with your e-mail</p>
               <button
                 onClick={() => setSignUp(true)}
                 class="ghost register-button"
