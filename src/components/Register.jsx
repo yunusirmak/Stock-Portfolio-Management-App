@@ -101,7 +101,7 @@ function Register() {
         <div class="form-container sign-in-container">
           <form id="register-form" action="#">
             <h1 id="register-h1">Sign in</h1>
-            <span id="register-span">with your account</span>
+            <br />
             <input
               id="register-input"
               onChange={signInChange}
@@ -127,7 +127,7 @@ function Register() {
             <div class="overlay-panel overlay-left">
               <h1 id="register-h1">Already Have an Account?</h1>
               <p id="register-p">
-                To keep connected please login with your e-mail and password
+                You can just login with <br /> your email and password
               </p>
               <button
                 onClick={() => setSignUp(false)}
@@ -139,7 +139,7 @@ function Register() {
             </div>
             <div class="overlay-panel overlay-right">
               <h1 id="register-h1">Don't Have an Account Yet?</h1>
-              <p id="register-p">You can create one with your e-mail</p>
+              <p id="register-p">You can create one with your email</p>
               <button
                 onClick={() => setSignUp(true)}
                 class="ghost register-button"
