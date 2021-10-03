@@ -1,4 +1,5 @@
 import React from "react";
+import SearchBar from "./SearchBar";
 import useLocalStorage from "../hooks/useLocalStorage";
 
 function User() {
@@ -28,6 +29,7 @@ function User() {
         -$
       </button>
       <button onClick={handleSignOut}>Sign Out</button>
+      <SearchBar />
     </div>
   );
 }
