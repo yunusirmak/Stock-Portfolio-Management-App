@@ -24,7 +24,7 @@ function User() {
   return (
     <div>
       <h1>You are logged in {users[0].name}!</h1>
-      <h1>Your balance is {users[0].balance}$!</h1>
+      <h1>Your balance is {users[0].balance.toFixed(2)}$!</h1>
       <button name="balance" onClick={decreaseBalance}>
         -$
       </button>

@@ -26,6 +26,7 @@ function Register() {
         ...prevUser,
         [name]: value,
         balance: 10000,
+        stocks: [],
       };
     });
   }

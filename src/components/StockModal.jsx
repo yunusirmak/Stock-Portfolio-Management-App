@@ -1,14 +1,42 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Modal from "react-bootstrap/Modal";
 import ModalHeader from "react-bootstrap/ModalHeader";
 import ModalTitle from "react-bootstrap/ModalTitle";
 import ModalBody from "react-bootstrap/ModalBody";
 import ModalFooter from "react-bootstrap/ModalFooter";
 import Button from "react-bootstrap/Button";
+import useLocalStorage from "../hooks/useLocalStorage";
 
 function StockModal(props) {
+  const [users, setUsers] = useLocalStorage("users", [
+    JSON.parse(window.localStorage.getItem("users")),
+  ]);
   const price = props.stockPrice;
   const [total, setTotal] = useState("");
+  const [boughtStock, setBoughtStock] = useState(
+    JSON.parse(window.localStorage.getItem("users[0].stocks"))
+  );
+  useEffect(() => {
+    setUsers((prevUsers) => {
+      return [
+        {
+          ...prevUsers[0],
+          balance: prevUsers[0].balance - boughtStock.total,
+          stocks: [...prevUsers[0].stocks, boughtStock],
+        },
+      ];
+    });
+    console.log(users);
+  }, [boughtStock]);
+  function buyStock(event) {
+    setBoughtStock({
+      name: props.stockName,
+      symbol: props.stockSymbol,
+      amount: total,
+      total: (total * price).toFixed(2),
+    });
+    window.location.reload();
+  }
   return (
     <div>
       <Modal
@@ -56,7 +84,7 @@ function StockModal(props) {
             <b>Total:</b> ${(total * price).toFixed(2)}
           </h4>
           &nbsp;&nbsp;
-          <Button variant="success" onClick={props.onHide}>
+          <Button variant="success" onClick={buyStock}>
             BUY ({props.stockSymbol})
           </Button>
         </ModalFooter>
