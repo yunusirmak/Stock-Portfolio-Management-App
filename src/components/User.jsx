@@ -1,6 +1,7 @@
 import React from "react";
 import SearchBar from "./SearchBar";
 import useLocalStorage from "../hooks/useLocalStorage";
+import PortfolioTable from "./PortfolioTable";
 
 function User() {
   const [users, setUsers] = useLocalStorage("users", [
@@ -30,6 +31,7 @@ function User() {
       </button>
       <button onClick={handleSignOut}>Sign Out</button>
       <SearchBar />
+      <PortfolioTable />
     </div>
   );
 }
