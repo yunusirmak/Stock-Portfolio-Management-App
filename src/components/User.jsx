@@ -1,11 +1,8 @@
 import React from "react";
 import SearchBar from "./SearchBar";
-import StockModal from "./StockModal";
 import useLocalStorage from "../hooks/useLocalStorage";
-import Button from "react-bootstrap/Button";
 
 function User() {
-  const [modalShow, setModalShow] = React.useState(false);
   const [users, setUsers] = useLocalStorage("users", [
     JSON.parse(window.localStorage.getItem("users")),
   ]);
@@ -33,11 +30,6 @@ function User() {
       </button>
       <button onClick={handleSignOut}>Sign Out</button>
       <SearchBar />
-      <Button variant="primary" onClick={() => setModalShow(true)}>
-        Launch vertically centered modal
-      </Button>
-
-      <StockModal show={modalShow} onHide={() => setModalShow(false)} />
     </div>
   );
 }

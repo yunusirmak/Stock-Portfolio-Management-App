@@ -42,6 +42,7 @@ input:focus {
   overflow: hidden;
   overflow-y: auto;
   margin: auto;
+  cursor: pointer;
 }
 
 .dataResult::-webkit-scrollbar {
