@@ -1,1002 +1,920 @@
 [
   {
-    "author": "Chinua Achebe",
-    "country": "Nigeria",
-    "imageLink": "images/things-fall-apart.jpg",
-    "language": "English",
-    "link": "https://en.wikipedia.org/wiki/Things_Fall_Apart\n",
-    "pages": 209,
-    "title": "Things Fall Apart",
-    "year": 1958
-  },
-  {
-    "author": "Hans Christian Andersen",
-    "country": "Denmark",
-    "imageLink": "images/fairy-tales.jpg",
-    "language": "Danish",
-    "link": "https://en.wikipedia.org/wiki/Fairy_Tales_Told_for_Children._First_Collection.\n",
-    "pages": 784,
-    "title": "Fairy tales",
-    "year": 1836
-  },
-  {
-    "author": "Dante Alighieri",
-    "country": "Italy",
-    "imageLink": "images/the-divine-comedy.jpg",
-    "language": "Italian",
-    "link": "https://en.wikipedia.org/wiki/Divine_Comedy\n",
-    "pages": 928,
-    "title": "The Divine Comedy",
-    "year": 1315
-  },
-  {
-    "author": "Unknown",
-    "country": "Sumer and Akkadian Empire",
-    "imageLink": "images/the-epic-of-gilgamesh.jpg",
-    "language": "Akkadian",
-    "link": "https://en.wikipedia.org/wiki/Epic_of_Gilgamesh\n",
-    "pages": 160,
-    "title": "The Epic Of Gilgamesh",
-    "year": -1700
-  },
-  {
-    "author": "Unknown",
-    "country": "Achaemenid Empire",
-    "imageLink": "images/the-book-of-job.jpg",
-    "language": "Hebrew",
-    "link": "https://en.wikipedia.org/wiki/Book_of_Job\n",
-    "pages": 176,
-    "title": "The Book Of Job",
-    "year": -600
-  },
-  {
-    "author": "Unknown",
-    "country": "India/Iran/Iraq/Egypt/Tajikistan",
-    "imageLink": "images/one-thousand-and-one-nights.jpg",
-    "language": "Arabic",
-    "link": "https://en.wikipedia.org/wiki/One_Thousand_and_One_Nights\n",
-    "pages": 288,
-    "title": "One Thousand and One Nights",
-    "year": 1200
-  },
-  {
-    "author": "Unknown",
-    "country": "Iceland",
-    "imageLink": "images/njals-saga.jpg",
-    "language": "Old Norse",
-    "link": "https://en.wikipedia.org/wiki/Nj%C3%A1ls_saga\n",
-    "pages": 384,
-    "title": "Nj\u00e1l's Saga",
-    "year": 1350
-  },
-  {
-    "author": "Jane Austen",
-    "country": "United Kingdom",
-    "imageLink": "images/pride-and-prejudice.jpg",
-    "language": "English",
-    "link": "https://en.wikipedia.org/wiki/Pride_and_Prejudice\n",
-    "pages": 226,
-    "title": "Pride and Prejudice",
-    "year": 1813
-  },
-  {
-    "author": "Honor\u00e9 de Balzac",
-    "country": "France",
-    "imageLink": "images/le-pere-goriot.jpg",
-    "language": "French",
-    "link": "https://en.wikipedia.org/wiki/Le_P%C3%A8re_Goriot\n",
-    "pages": 443,
-    "title": "Le P\u00e8re Goriot",
-    "year": 1835
-  },
-  {
-    "author": "Samuel Beckett",
-    "country": "Republic of Ireland",
-    "imageLink": "images/molloy-malone-dies-the-unnamable.jpg",
-    "language": "French, English",
-    "link": "https://en.wikipedia.org/wiki/Molloy_(novel)\n",
-    "pages": 256,
-    "title": "Molloy, Malone Dies, The Unnamable, the trilogy",
-    "year": 1952
-  },
-  {
-    "author": "Giovanni Boccaccio",
-    "country": "Italy",
-    "imageLink": "images/the-decameron.jpg",
-    "language": "Italian",
-    "link": "https://en.wikipedia.org/wiki/The_Decameron\n",
-    "pages": 1024,
-    "title": "The Decameron",
-    "year": 1351
-  },
-  {
-    "author": "Jorge Luis Borges",
-    "country": "Argentina",
-    "imageLink": "images/ficciones.jpg",
-    "language": "Spanish",
-    "link": "https://en.wikipedia.org/wiki/Ficciones\n",
-    "pages": 224,
-    "title": "Ficciones",
-    "year": 1965
-  },
-  {
-    "author": "Emily Bront\u00eb",
-    "country": "United Kingdom",
-    "imageLink": "images/wuthering-heights.jpg",
-    "language": "English",
-    "link": "https://en.wikipedia.org/wiki/Wuthering_Heights\n",
-    "pages": 342,
-    "title": "Wuthering Heights",
-    "year": 1847
-  },
-  {
-    "author": "Albert Camus",
-    "country": "Algeria, French Empire",
-    "imageLink": "images/l-etranger.jpg",
-    "language": "French",
-    "link": "https://en.wikipedia.org/wiki/The_Stranger_(novel)\n",
-    "pages": 185,
-    "title": "The Stranger",
-    "year": 1942
-  },
-  {
-    "author": "Paul Celan",
-    "country": "Romania, France",
-    "imageLink": "images/poems-paul-celan.jpg",
-    "language": "German",
-    "link": "\n",
-    "pages": 320,
-    "title": "Poems",
-    "year": 1952
-  },
-  {
-    "author": "Louis-Ferdinand C\u00e9line",
-    "country": "France",
-    "imageLink": "images/voyage-au-bout-de-la-nuit.jpg",
-    "language": "French",
-    "link": "https://en.wikipedia.org/wiki/Journey_to_the_End_of_the_Night\n",
-    "pages": 505,
-    "title": "Journey to the End of the Night",
-    "year": 1932
-  },
-  {
-    "author": "Miguel de Cervantes",
-    "country": "Spain",
-    "imageLink": "images/don-quijote-de-la-mancha.jpg",
-    "language": "Spanish",
-    "link": "https://en.wikipedia.org/wiki/Don_Quixote\n",
-    "pages": 1056,
-    "title": "Don Quijote De La Mancha",
-    "year": 1610
-  },
-  {
-    "author": "Geoffrey Chaucer",
-    "country": "England",
-    "imageLink": "images/the-canterbury-tales.jpg",
-    "language": "English",
-    "link": "https://en.wikipedia.org/wiki/The_Canterbury_Tales\n",
-    "pages": 544,
-    "title": "The Canterbury Tales",
-    "year": 1450
-  },
-  {
-    "author": "Anton Chekhov",
-    "country": "Russia",
-    "imageLink": "images/stories-of-anton-chekhov.jpg",
-    "language": "Russian",
-    "link": "https://en.wikipedia.org/wiki/List_of_short_stories_by_Anton_Chekhov\n",
-    "pages": 194,
-    "title": "Stories",
-    "year": 1886
-  },
-  {
-    "author": "Joseph Conrad",
-    "country": "United Kingdom",
-    "imageLink": "images/nostromo.jpg",
-    "language": "English",
-    "link": "https://en.wikipedia.org/wiki/Nostromo\n",
-    "pages": 320,
-    "title": "Nostromo",
-    "year": 1904
-  },
-  {
-    "author": "Charles Dickens",
-    "country": "United Kingdom",
-    "imageLink": "images/great-expectations.jpg",
-    "language": "English",
-    "link": "https://en.wikipedia.org/wiki/Great_Expectations\n",
-    "pages": 194,
-    "title": "Great Expectations",
-    "year": 1861
-  },
-  {
-    "author": "Denis Diderot",
-    "country": "France",
-    "imageLink": "images/jacques-the-fatalist.jpg",
-    "language": "French",
-    "link": "https://en.wikipedia.org/wiki/Jacques_the_Fatalist\n",
-    "pages": 596,
-    "title": "Jacques the Fatalist",
-    "year": 1796
-  },
-  {
-    "author": "Alfred D\u00f6blin",
-    "country": "Germany",
-    "imageLink": "images/berlin-alexanderplatz.jpg",
-    "language": "German",
-    "link": "https://en.wikipedia.org/wiki/Berlin_Alexanderplatz\n",
-    "pages": 600,
-    "title": "Berlin Alexanderplatz",
-    "year": 1929
-  },
-  {
-    "author": "Fyodor Dostoevsky",
-    "country": "Russia",
-    "imageLink": "images/crime-and-punishment.jpg",
-    "language": "Russian",
-    "link": "https://en.wikipedia.org/wiki/Crime_and_Punishment\n",
-    "pages": 551,
-    "title": "Crime and Punishment",
-    "year": 1866
-  },
-  {
-    "author": "Fyodor Dostoevsky",
-    "country": "Russia",
-    "imageLink": "images/the-idiot.jpg",
-    "language": "Russian",
-    "link": "https://en.wikipedia.org/wiki/The_Idiot\n",
-    "pages": 656,
-    "title": "The Idiot",
-    "year": 1869
-  },
-  {
-    "author": "Fyodor Dostoevsky",
-    "country": "Russia",
-    "imageLink": "images/the-possessed.jpg",
-    "language": "Russian",
-    "link": "https://en.wikipedia.org/wiki/Demons_(Dostoyevsky_novel)\n",
-    "pages": 768,
-    "title": "The Possessed",
-    "year": 1872
-  },
-  {
-    "author": "Fyodor Dostoevsky",
-    "country": "Russia",
-    "imageLink": "images/the-brothers-karamazov.jpg",
-    "language": "Russian",
-    "link": "https://en.wikipedia.org/wiki/The_Brothers_Karamazov\n",
-    "pages": 824,
-    "title": "The Brothers Karamazov",
-    "year": 1880
-  },
-  {
-    "author": "George Eliot",
-    "country": "United Kingdom",
-    "imageLink": "images/middlemarch.jpg",
-    "language": "English",
-    "link": "https://en.wikipedia.org/wiki/Middlemarch\n",
-    "pages": 800,
-    "title": "Middlemarch",
-    "year": 1871
-  },
-  {
-    "author": "Ralph Ellison",
-    "country": "United States",
-    "imageLink": "images/invisible-man.jpg",
-    "language": "English",
-    "link": "https://en.wikipedia.org/wiki/Invisible_Man\n",
-    "pages": 581,
-    "title": "Invisible Man",
-    "year": 1952
-  },
-  {
-    "author": "Euripides",
-    "country": "Greece",
-    "imageLink": "images/medea.jpg",
-    "language": "Greek",
-    "link": "https://en.wikipedia.org/wiki/Medea_(play)\n",
-    "pages": 104,
-    "title": "Medea",
-    "year": -431
-  },
-  {
-    "author": "William Faulkner",
-    "country": "United States",
-    "imageLink": "images/absalom-absalom.jpg",
-    "language": "English",
-    "link": "https://en.wikipedia.org/wiki/Absalom,_Absalom!\n",
-    "pages": 313,
-    "title": "Absalom, Absalom!",
-    "year": 1936
-  },
-  {
-    "author": "William Faulkner",
-    "country": "United States",
-    "imageLink": "images/the-sound-and-the-fury.jpg",
-    "language": "English",
-    "link": "https://en.wikipedia.org/wiki/The_Sound_and_the_Fury\n",
-    "pages": 326,
-    "title": "The Sound and the Fury",
-    "year": 1929
-  },
-  {
-    "author": "Gustave Flaubert",
-    "country": "France",
-    "imageLink": "images/madame-bovary.jpg",
-    "language": "French",
-    "link": "https://en.wikipedia.org/wiki/Madame_Bovary\n",
-    "pages": 528,
-    "title": "Madame Bovary",
-    "year": 1857
-  },
-  {
-    "author": "Gustave Flaubert",
-    "country": "France",
-    "imageLink": "images/l-education-sentimentale.jpg",
-    "language": "French",
-    "link": "https://en.wikipedia.org/wiki/Sentimental_Education\n",
-    "pages": 606,
-    "title": "Sentimental Education",
-    "year": 1869
-  },
-  {
-    "author": "Federico Garc\u00eda Lorca",
-    "country": "Spain",
-    "imageLink": "images/gypsy-ballads.jpg",
-    "language": "Spanish",
-    "link": "https://en.wikipedia.org/wiki/Gypsy_Ballads\n",
-    "pages": 218,
-    "title": "Gypsy Ballads",
-    "year": 1928
-  },
-  {
-    "author": "Gabriel Garc\u00eda M\u00e1rquez",
-    "country": "Colombia",
-    "imageLink": "images/one-hundred-years-of-solitude.jpg",
-    "language": "Spanish",
-    "link": "https://en.wikipedia.org/wiki/One_Hundred_Years_of_Solitude\n",
-    "pages": 417,
-    "title": "One Hundred Years of Solitude",
-    "year": 1967
-  },
-  {
-    "author": "Gabriel Garc\u00eda M\u00e1rquez",
-    "country": "Colombia",
-    "imageLink": "images/love-in-the-time-of-cholera.jpg",
-    "language": "Spanish",
-    "link": "https://en.wikipedia.org/wiki/Love_in_the_Time_of_Cholera\n",
-    "pages": 368,
-    "title": "Love in the Time of Cholera",
-    "year": 1985
-  },
-  {
-    "author": "Johann Wolfgang von Goethe",
-    "country": "Saxe-Weimar",
-    "imageLink": "images/faust.jpg",
-    "language": "German",
-    "link": "https://en.wikipedia.org/wiki/Goethe%27s_Faust\n",
-    "pages": 158,
-    "title": "Faust",
-    "year": 1832
-  },
-  {
-    "author": "Nikolai Gogol",
-    "country": "Russia",
-    "imageLink": "images/dead-souls.jpg",
-    "language": "Russian",
-    "link": "https://en.wikipedia.org/wiki/Dead_Souls\n",
-    "pages": 432,
-    "title": "Dead Souls",
-    "year": 1842
-  },
-  {
-    "author": "G\u00fcnter Grass",
-    "country": "Germany",
-    "imageLink": "images/the-tin-drum.jpg",
-    "language": "German",
-    "link": "https://en.wikipedia.org/wiki/The_Tin_Drum\n",
-    "pages": 600,
-    "title": "The Tin Drum",
-    "year": 1959
-  },
-  {
-    "author": "Jo\u00e3o Guimar\u00e3es Rosa",
-    "country": "Brazil",
-    "imageLink": "images/the-devil-to-pay-in-the-backlands.jpg",
-    "language": "Portuguese",
-    "link": "https://en.wikipedia.org/wiki/The_Devil_to_Pay_in_the_Backlands\n",
-    "pages": 494,
-    "title": "The Devil to Pay in the Backlands",
-    "year": 1956
-  },
-  {
-    "author": "Knut Hamsun",
-    "country": "Norway",
-    "imageLink": "images/hunger.jpg",
-    "language": "Norwegian",
-    "link": "https://en.wikipedia.org/wiki/Hunger_(Hamsun_novel)\n",
-    "pages": 176,
-    "title": "Hunger",
-    "year": 1890
-  },
-  {
-    "author": "Ernest Hemingway",
-    "country": "United States",
-    "imageLink": "images/the-old-man-and-the-sea.jpg",
-    "language": "English",
-    "link": "https://en.wikipedia.org/wiki/The_Old_Man_and_the_Sea\n",
-    "pages": 128,
-    "title": "The Old Man and the Sea",
-    "year": 1952
-  },
-  {
-    "author": "Homer",
-    "country": "Greece",
-    "imageLink": "images/the-iliad-of-homer.jpg",
-    "language": "Greek",
-    "link": "https://en.wikipedia.org/wiki/Iliad\n",
-    "pages": 608,
-    "title": "Iliad",
-    "year": -735
-  },
-  {
-    "author": "Homer",
-    "country": "Greece",
-    "imageLink": "images/the-odyssey-of-homer.jpg",
-    "language": "Greek",
-    "link": "https://en.wikipedia.org/wiki/Odyssey\n",
-    "pages": 374,
-    "title": "Odyssey",
-    "year": -800
-  },
-  {
-    "author": "Henrik Ibsen",
-    "country": "Norway",
-    "imageLink": "images/a-Dolls-house.jpg",
-    "language": "Norwegian",
-    "link": "https://en.wikipedia.org/wiki/A_Doll%27s_House\n",
-    "pages": 68,
-    "title": "A Doll's House",
-    "year": 1879
-  },
-  {
-    "author": "James Joyce",
-    "country": "Irish Free State",
-    "imageLink": "images/ulysses.jpg",
-    "language": "English",
-    "link": "https://en.wikipedia.org/wiki/Ulysses_(novel)\n",
-    "pages": 228,
-    "title": "Ulysses",
-    "year": 1922
-  },
-  {
-    "author": "Franz Kafka",
-    "country": "Czechoslovakia",
-    "imageLink": "images/stories-of-franz-kafka.jpg",
-    "language": "German",
-    "link": "https://en.wikipedia.org/wiki/Franz_Kafka_bibliography#Short_stories\n",
-    "pages": 488,
-    "title": "Stories",
-    "year": 1924
-  },
-  {
-    "author": "Franz Kafka",
-    "country": "Czechoslovakia",
-    "imageLink": "images/the-trial.jpg",
-    "language": "German",
-    "link": "https://en.wikipedia.org/wiki/The_Trial\n",
-    "pages": 160,
-    "title": "The Trial",
-    "year": 1925
-  },
-  {
-    "author": "Franz Kafka",
-    "country": "Czechoslovakia",
-    "imageLink": "images/the-castle.jpg",
-    "language": "German",
-    "link": "https://en.wikipedia.org/wiki/The_Castle_(novel)\n",
-    "pages": 352,
-    "title": "The Castle",
-    "year": 1926
-  },
-  {
-    "author": "K\u0101lid\u0101sa",
-    "country": "India",
-    "imageLink": "images/the-recognition-of-shakuntala.jpg",
-    "language": "Sanskrit",
-    "link": "https://en.wikipedia.org/wiki/Abhij%C3%B1%C4%81na%C5%9B%C4%81kuntalam\n",
-    "pages": 147,
-    "title": "The recognition of Shakuntala",
-    "year": 150
-  },
-  {
-    "author": "Yasunari Kawabata",
-    "country": "Japan",
-    "imageLink": "images/the-sound-of-the-mountain.jpg",
-    "language": "Japanese",
-    "link": "https://en.wikipedia.org/wiki/The_Sound_of_the_Mountain\n",
-    "pages": 288,
-    "title": "The Sound of the Mountain",
-    "year": 1954
-  },
-  {
-    "author": "Nikos Kazantzakis",
-    "country": "Greece",
-    "imageLink": "images/zorba-the-greek.jpg",
-    "language": "Greek",
-    "link": "https://en.wikipedia.org/wiki/Zorba_the_Greek\n",
-    "pages": 368,
-    "title": "Zorba the Greek",
-    "year": 1946
-  },
-  {
-    "author": "D. H. Lawrence",
-    "country": "United Kingdom",
-    "imageLink": "images/sons-and-lovers.jpg",
-    "language": "English",
-    "link": "https://en.wikipedia.org/wiki/Sons_and_Lovers\n",
-    "pages": 432,
-    "title": "Sons and Lovers",
-    "year": 1913
-  },
-  {
-    "author": "Halld\u00f3r Laxness",
-    "country": "Iceland",
-    "imageLink": "images/independent-people.jpg",
-    "language": "Icelandic",
-    "link": "https://en.wikipedia.org/wiki/Independent_People\n",
-    "pages": 470,
-    "title": "Independent People",
-    "year": 1934
-  },
-  {
-    "author": "Giacomo Leopardi",
-    "country": "Italy",
-    "imageLink": "images/poems-giacomo-leopardi.jpg",
-    "language": "Italian",
-    "link": "\n",
-    "pages": 184,
-    "title": "Poems",
-    "year": 1818
-  },
-  {
-    "author": "Doris Lessing",
-    "country": "United Kingdom",
-    "imageLink": "images/the-golden-notebook.jpg",
-    "language": "English",
-    "link": "https://en.wikipedia.org/wiki/The_Golden_Notebook\n",
-    "pages": 688,
-    "title": "The Golden Notebook",
-    "year": 1962
-  },
-  {
-    "author": "Astrid Lindgren",
-    "country": "Sweden",
-    "imageLink": "images/pippi-longstocking.jpg",
-    "language": "Swedish",
-    "link": "https://en.wikipedia.org/wiki/Pippi_Longstocking\n",
-    "pages": 160,
-    "title": "Pippi Longstocking",
-    "year": 1945
-  },
-  {
-    "author": "Lu Xun",
-    "country": "China",
-    "imageLink": "images/diary-of-a-madman.jpg",
-    "language": "Chinese",
-    "link": "https://en.wikipedia.org/wiki/A_Madman%27s_Diary\n",
-    "pages": 389,
-    "title": "Diary of a Madman",
-    "year": 1918
-  },
-  {
-    "author": "Naguib Mahfouz",
-    "country": "Egypt",
-    "imageLink": "images/children-of-gebelawi.jpg",
-    "language": "Arabic",
-    "link": "https://en.wikipedia.org/wiki/Children_of_Gebelawi\n",
-    "pages": 355,
-    "title": "Children of Gebelawi",
-    "year": 1959
-  },
-  {
-    "author": "Thomas Mann",
-    "country": "Germany",
-    "imageLink": "images/buddenbrooks.jpg",
-    "language": "German",
-    "link": "https://en.wikipedia.org/wiki/Buddenbrooks\n",
-    "pages": 736,
-    "title": "Buddenbrooks",
-    "year": 1901
-  },
-  {
-    "author": "Thomas Mann",
-    "country": "Germany",
-    "imageLink": "images/the-magic-mountain.jpg",
-    "language": "German",
-    "link": "https://en.wikipedia.org/wiki/The_Magic_Mountain\n",
-    "pages": 720,
-    "title": "The Magic Mountain",
-    "year": 1924
-  },
-  {
-    "author": "Herman Melville",
-    "country": "United States",
-    "imageLink": "images/moby-dick.jpg",
-    "language": "English",
-    "link": "https://en.wikipedia.org/wiki/Moby-Dick\n",
-    "pages": 378,
-    "title": "Moby Dick",
-    "year": 1851
-  },
-  {
-    "author": "Michel de Montaigne",
-    "country": "France",
-    "imageLink": "images/essais.jpg",
-    "language": "French",
-    "link": "https://en.wikipedia.org/wiki/Essays_(Montaigne)\n",
-    "pages": 404,
-    "title": "Essays",
-    "year": 1595
-  },
-  {
-    "author": "Elsa Morante",
-    "country": "Italy",
-    "imageLink": "images/history.jpg",
-    "language": "Italian",
-    "link": "https://en.wikipedia.org/wiki/History_(novel)\n",
-    "pages": 600,
-    "title": "History",
-    "year": 1974
-  },
-  {
-    "author": "Toni Morrison",
-    "country": "United States",
-    "imageLink": "images/beloved.jpg",
-    "language": "English",
-    "link": "https://en.wikipedia.org/wiki/Beloved_(novel)\n",
-    "pages": 321,
-    "title": "Beloved",
-    "year": 1987
-  },
-  {
-    "author": "Murasaki Shikibu",
-    "country": "Japan",
-    "imageLink": "images/the-tale-of-genji.jpg",
-    "language": "Japanese",
-    "link": "https://en.wikipedia.org/wiki/The_Tale_of_Genji\n",
-    "pages": 1360,
-    "title": "The Tale of Genji",
-    "year": 1006
-  },
-  {
-    "author": "Robert Musil",
-    "country": "Austria",
-    "imageLink": "images/the-man-without-qualities.jpg",
-    "language": "German",
-    "link": "https://en.wikipedia.org/wiki/The_Man_Without_Qualities\n",
-    "pages": 365,
-    "title": "The Man Without Qualities",
-    "year": 1931
-  },
-  {
-    "author": "Vladimir Nabokov",
-    "country": "Russia/United States",
-    "imageLink": "images/lolita.jpg",
-    "language": "English",
-    "link": "https://en.wikipedia.org/wiki/Lolita\n",
-    "pages": 317,
-    "title": "Lolita",
-    "year": 1955
-  },
-  {
-    "author": "George Orwell",
-    "country": "United Kingdom",
-    "imageLink": "images/nineteen-eighty-four.jpg",
-    "language": "English",
-    "link": "https://en.wikipedia.org/wiki/Nineteen_Eighty-Four\n",
-    "pages": 272,
-    "title": "Nineteen Eighty-Four",
-    "year": 1949
-  },
-  {
-    "author": "Ovid",
-    "country": "Roman Empire",
-    "imageLink": "images/the-metamorphoses-of-ovid.jpg",
-    "language": "Classical Latin",
-    "link": "https://en.wikipedia.org/wiki/Metamorphoses\n",
-    "pages": 576,
-    "title": "Metamorphoses",
-    "year": 100
-  },
-  {
-    "author": "Fernando Pessoa",
-    "country": "Portugal",
-    "imageLink": "images/the-book-of-disquiet.jpg",
-    "language": "Portuguese",
-    "link": "https://en.wikipedia.org/wiki/The_Book_of_Disquiet\n",
-    "pages": 272,
-    "title": "The Book of Disquiet",
-    "year": 1928
-  },
-  {
-    "author": "Edgar Allan Poe",
-    "country": "United States",
-    "imageLink": "images/tales-and-poems-of-edgar-allan-poe.jpg",
-    "language": "English",
-    "link": "https://en.wikipedia.org/wiki/Edgar_Allan_Poe_bibliography#Tales\n",
-    "pages": 842,
-    "title": "Tales",
-    "year": 1950
-  },
-  {
-    "author": "Marcel Proust",
-    "country": "France",
-    "imageLink": "images/a-la-recherche-du-temps-perdu.jpg",
-    "language": "French",
-    "link": "https://en.wikipedia.org/wiki/In_Search_of_Lost_Time\n",
-    "pages": 2408,
-    "title": "In Search of Lost Time",
-    "year": 1920
-  },
-  {
-    "author": "Fran\u00e7ois Rabelais",
-    "country": "France",
-    "imageLink": "images/gargantua-and-pantagruel.jpg",
-    "language": "French",
-    "link": "https://en.wikipedia.org/wiki/Gargantua_and_Pantagruel\n",
-    "pages": 623,
-    "title": "Gargantua and Pantagruel",
-    "year": 1533
-  },
-  {
-    "author": "Juan Rulfo",
-    "country": "Mexico",
-    "imageLink": "images/pedro-paramo.jpg",
-    "language": "Spanish",
-    "link": "https://en.wikipedia.org/wiki/Pedro_P%C3%A1ramo\n",
-    "pages": 124,
-    "title": "Pedro P\u00e1ramo",
-    "year": 1955
-  },
-  {
-    "author": "Rumi",
-    "country": "Sultanate of Rum",
-    "imageLink": "images/the-masnavi.jpg",
-    "language": "Persian",
-    "link": "https://en.wikipedia.org/wiki/Masnavi\n",
-    "pages": 438,
-    "title": "The Masnavi",
-    "year": 1236
-  },
-  {
-    "author": "Salman Rushdie",
-    "country": "United Kingdom, India",
-    "imageLink": "images/midnights-children.jpg",
-    "language": "English",
-    "link": "https://en.wikipedia.org/wiki/Midnight%27s_Children\n",
-    "pages": 536,
-    "title": "Midnight's Children",
-    "year": 1981
-  },
-  {
-    "author": "Saadi",
-    "country": "Persia, Persian Empire",
-    "imageLink": "images/bostan.jpg",
-    "language": "Persian",
-    "link": "https://en.wikipedia.org/wiki/Bustan_(book)\n",
-    "pages": 298,
-    "title": "Bostan",
-    "year": 1257
-  },
-  {
-    "author": "Tayeb Salih",
-    "country": "Sudan",
-    "imageLink": "images/season-of-migration-to-the-north.jpg",
-    "language": "Arabic",
-    "link": "https://en.wikipedia.org/wiki/Season_of_Migration_to_the_North\n",
-    "pages": 139,
-    "title": "Season of Migration to the North",
-    "year": 1966
-  },
-  {
-    "author": "Jos\u00e9 Saramago",
-    "country": "Portugal",
-    "imageLink": "images/blindness.jpg",
-    "language": "Portuguese",
-    "link": "https://en.wikipedia.org/wiki/Blindness_(novel)\n",
-    "pages": 352,
-    "title": "Blindness",
-    "year": 1995
-  },
-  {
-    "author": "William Shakespeare",
-    "country": "England",
-    "imageLink": "images/hamlet.jpg",
-    "language": "English",
-    "link": "https://en.wikipedia.org/wiki/Hamlet\n",
-    "pages": 432,
-    "title": "Hamlet",
-    "year": 1603
-  },
-  {
-    "author": "William Shakespeare",
-    "country": "England",
-    "imageLink": "images/king-lear.jpg",
-    "language": "English",
-    "link": "https://en.wikipedia.org/wiki/King_Lear\n",
-    "pages": 384,
-    "title": "King Lear",
-    "year": 1608
-  },
-  {
-    "author": "William Shakespeare",
-    "country": "England",
-    "imageLink": "images/othello.jpg",
-    "language": "English",
-    "link": "https://en.wikipedia.org/wiki/Othello\n",
-    "pages": 314,
-    "title": "Othello",
-    "year": 1609
-  },
-  {
-    "author": "Sophocles",
-    "country": "Greece",
-    "imageLink": "images/oedipus-the-king.jpg",
-    "language": "Greek",
-    "link": "https://en.wikipedia.org/wiki/Oedipus_the_King\n",
-    "pages": 88,
-    "title": "Oedipus the King",
-    "year": -430
-  },
-  {
-    "author": "Stendhal",
-    "country": "France",
-    "imageLink": "images/le-rouge-et-le-noir.jpg",
-    "language": "French",
-    "link": "https://en.wikipedia.org/wiki/The_Red_and_the_Black\n",
-    "pages": 576,
-    "title": "The Red and the Black",
-    "year": 1830
-  },
-  {
-    "author": "Laurence Sterne",
-    "country": "England",
-    "imageLink": "images/the-life-and-opinions-of-tristram-shandy.jpg",
-    "language": "English",
-    "link": "https://en.wikipedia.org/wiki/The_Life_and_Opinions_of_Tristram_Shandy,_Gentleman\n",
-    "pages": 640,
-    "title": "The Life And Opinions of Tristram Shandy",
-    "year": 1760
-  },
-  {
-    "author": "Italo Svevo",
-    "country": "Italy",
-    "imageLink": "images/confessions-of-zeno.jpg",
-    "language": "Italian",
-    "link": "https://en.wikipedia.org/wiki/Zeno%27s_Conscience\n",
-    "pages": 412,
-    "title": "Confessions of Zeno",
-    "year": 1923
-  },
-  {
-    "author": "Jonathan Swift",
-    "country": "Ireland",
-    "imageLink": "images/gullivers-travels.jpg",
-    "language": "English",
-    "link": "https://en.wikipedia.org/wiki/Gulliver%27s_Travels\n",
-    "pages": 178,
-    "title": "Gulliver's Travels",
-    "year": 1726
-  },
-  {
-    "author": "Leo Tolstoy",
-    "country": "Russia",
-    "imageLink": "images/war-and-peace.jpg",
-    "language": "Russian",
-    "link": "https://en.wikipedia.org/wiki/War_and_Peace\n",
-    "pages": 1296,
-    "title": "War and Peace",
-    "year": 1867
-  },
-  {
-    "author": "Leo Tolstoy",
-    "country": "Russia",
-    "imageLink": "images/anna-karenina.jpg",
-    "language": "Russian",
-    "link": "https://en.wikipedia.org/wiki/Anna_Karenina\n",
-    "pages": 864,
-    "title": "Anna Karenina",
-    "year": 1877
-  },
-  {
-    "author": "Leo Tolstoy",
-    "country": "Russia",
-    "imageLink": "images/the-death-of-ivan-ilyich.jpg",
-    "language": "Russian",
-    "link": "https://en.wikipedia.org/wiki/The_Death_of_Ivan_Ilyich\n",
-    "pages": 92,
-    "title": "The Death of Ivan Ilyich",
-    "year": 1886
-  },
-  {
-    "author": "Mark Twain",
-    "country": "United States",
-    "imageLink": "images/the-adventures-of-huckleberry-finn.jpg",
-    "language": "English",
-    "link": "https://en.wikipedia.org/wiki/Adventures_of_Huckleberry_Finn\n",
-    "pages": 224,
-    "title": "The Adventures of Huckleberry Finn",
-    "year": 1884
-  },
-  {
-    "author": "Valmiki",
-    "country": "India",
-    "imageLink": "images/ramayana.jpg",
-    "language": "Sanskrit",
-    "link": "https://en.wikipedia.org/wiki/Ramayana\n",
-    "pages": 152,
-    "title": "Ramayana",
-    "year": -450
-  },
-  {
-    "author": "Virgil",
-    "country": "Roman Empire",
-    "imageLink": "images/the-aeneid.jpg",
-    "language": "Classical Latin",
-    "link": "https://en.wikipedia.org/wiki/Aeneid\n",
-    "pages": 442,
-    "title": "The Aeneid",
-    "year": -23
-  },
-  {
-    "author": "Vyasa",
-    "country": "India",
-    "imageLink": "images/the-mahab-harata.jpg",
-    "language": "Sanskrit",
-    "link": "https://en.wikipedia.org/wiki/Mahabharata\n",
-    "pages": 276,
-    "title": "Mahabharata",
-    "year": -700
-  },
-  {
-    "author": "Walt Whitman",
-    "country": "United States",
-    "imageLink": "images/leaves-of-grass.jpg",
-    "language": "English",
-    "link": "https://en.wikipedia.org/wiki/Leaves_of_Grass\n",
-    "pages": 152,
-    "title": "Leaves of Grass",
-    "year": 1855
-  },
-  {
-    "author": "Virginia Woolf",
-    "country": "United Kingdom",
-    "imageLink": "images/mrs-dalloway.jpg",
-    "language": "English",
-    "link": "https://en.wikipedia.org/wiki/Mrs_Dalloway\n",
-    "pages": 216,
-    "title": "Mrs Dalloway",
-    "year": 1925
-  },
-  {
-    "author": "Virginia Woolf",
-    "country": "United Kingdom",
-    "imageLink": "images/to-the-lighthouse.jpg",
-    "language": "English",
-    "link": "https://en.wikipedia.org/wiki/To_the_Lighthouse\n",
-    "pages": 209,
-    "title": "To the Lighthouse",
-    "year": 1927
-  },
-  {
-    "author": "Marguerite Yourcenar",
-    "country": "France/Belgium",
-    "imageLink": "images/memoirs-of-hadrian.jpg",
-    "language": "French",
-    "link": "https://en.wikipedia.org/wiki/Memoirs_of_Hadrian\n",
-    "pages": 408,
-    "title": "Memoirs of Hadrian",
-    "year": 1951
+    "symbol": "ATVI",
+    "companyName": "Activision Blizzard, Inc. Common Stock",
+    "marketCap": "61,073,444,186",
+    "lastSalePrice": "$78.53",
+    "netChange": "+1.14",
+    "percentageChange": "+1.47%",
+    "deltaIndicator": "up"
+  },
+  {
+    "symbol": "ADBE",
+    "companyName": "Adobe Inc. Common Stock",
+    "marketCap": "275,106,708,000",
+    "lastSalePrice": "$577.47",
+    "netChange": "+1.75",
+    "percentageChange": "+0.3%",
+    "deltaIndicator": "up"
+  },
+  {
+    "symbol": "AMD",
+    "companyName": "Advanced Micro Devices, Inc. Common Stock",
+    "marketCap": "124,268,293,141",
+    "lastSalePrice": "$102.45",
+    "netChange": "-0.45",
+    "percentageChange": "-0.44%",
+    "deltaIndicator": "down"
+  },
+  {
+    "symbol": "ALGN",
+    "companyName": "Align Technology, Inc. Common Stock",
+    "marketCap": "52,393,160,845",
+    "lastSalePrice": "$662.06",
+    "netChange": "-3.37",
+    "percentageChange": "-0.51%",
+    "deltaIndicator": "down"
+  },
+  {
+    "symbol": "GOOG",
+    "companyName": "Alphabet Inc. Class C Capital Stock",
+    "marketCap": "1,819,740,821,742",
+    "lastSalePrice": "$2729.25",
+    "netChange": "+63.94",
+    "percentageChange": "+2.4%",
+    "deltaIndicator": "up"
+  },
+  {
+    "symbol": "GOOGL",
+    "companyName": "Alphabet Inc. Class A Common Stock",
+    "marketCap": "1,820,814,297,137",
+    "lastSalePrice": "$2730.86",
+    "netChange": "+57.34",
+    "percentageChange": "+2.14%",
+    "deltaIndicator": "up"
+  },
+  {
+    "symbol": "AMZN",
+    "companyName": "Amazon.com, Inc. Common Stock",
+    "marketCap": "1,662,775,901,695",
+    "lastSalePrice": "$3283.26",
+    "netChange": "-1.78",
+    "percentageChange": "-0.05%",
+    "deltaIndicator": "down"
+  },
+  {
+    "symbol": "AEP",
+    "companyName": "American Electric Power Company, Inc. Common Stock",
+    "marketCap": "40,710,453,968",
+    "lastSalePrice": "$81.38",
+    "netChange": "+0.20",
+    "percentageChange": "+0.25%",
+    "deltaIndicator": "up"
+  },
+  {
+    "symbol": "AMGN",
+    "companyName": "Amgen Inc. Common Stock",
+    "marketCap": "121,474,975,354",
+    "lastSalePrice": "$213.92",
+    "netChange": "+1.27",
+    "percentageChange": "+0.6%",
+    "deltaIndicator": "up"
+  },
+  {
+    "symbol": "ADI",
+    "companyName": "Analog Devices, Inc. Common Stock",
+    "marketCap": "359,785,787,907",
+    "lastSalePrice": "$167.37",
+    "netChange": "-0.11",
+    "percentageChange": "-0.07%",
+    "deltaIndicator": "down"
+  },
+  {
+    "symbol": "ANSS",
+    "companyName": "ANSYS, Inc. Common Stock",
+    "marketCap": "30,079,434,779",
+    "lastSalePrice": "$344.74",
+    "netChange": "+4.29",
+    "percentageChange": "+1.26%",
+    "deltaIndicator": "up"
+  },
+  {
+    "symbol": "AAPL",
+    "companyName": "Apple Inc. Common Stock",
+    "marketCap": "2,473,171,551,000",
+    "lastSalePrice": "$142.65",
+    "netChange": "+1.15",
+    "percentageChange": "+0.81%",
+    "deltaIndicator": "up"
+  },
+  {
+    "symbol": "AMAT",
+    "companyName": "Applied Materials, Inc. Common Stock",
+    "marketCap": "116,595,157,205",
+    "lastSalePrice": "$129.13",
+    "netChange": "+0.40",
+    "percentageChange": "+0.31%",
+    "deltaIndicator": "up"
+  },
+  {
+    "symbol": "ASML",
+    "companyName": "ASML Holding N.V. New York Registry Shares",
+    "marketCap": "306,611,727,918",
+    "lastSalePrice": "$741.81",
+    "netChange": "-3.30",
+    "percentageChange": "-0.44%",
+    "deltaIndicator": "down"
+  },
+  {
+    "symbol": "TEAM",
+    "companyName": "Atlassian Corporation Plc Class A Ordinary Shares",
+    "marketCap": "98,807,048,119",
+    "lastSalePrice": "$392.22",
+    "netChange": "+0.80",
+    "percentageChange": "+0.2%",
+    "deltaIndicator": "up"
+  },
+  {
+    "symbol": "ADSK",
+    "companyName": "Autodesk, Inc. Common Stock",
+    "marketCap": "62,450,716,270",
+    "lastSalePrice": "$284.06",
+    "netChange": "-1.11",
+    "percentageChange": "-0.39%",
+    "deltaIndicator": "down"
+  },
+  {
+    "symbol": "ADP",
+    "companyName": "Automatic Data Processing, Inc. Common Stock",
+    "marketCap": "85,390,113,670",
+    "lastSalePrice": "$202.00",
+    "netChange": "+2.08",
+    "percentageChange": "+1.04%",
+    "deltaIndicator": "up"
+  },
+  {
+    "symbol": "BIDU",
+    "companyName": "Baidu, Inc. ADS",
+    "marketCap": "52,758,733,957",
+    "lastSalePrice": "$151.58",
+    "netChange": "-2.17",
+    "percentageChange": "-1.41%",
+    "deltaIndicator": "down"
+  },
+  {
+    "symbol": "BIIB",
+    "companyName": "Biogen Inc. Common Stock",
+    "marketCap": "42,316,555,805",
+    "lastSalePrice": "$283.94",
+    "netChange": "+0.95",
+    "percentageChange": "+0.34%",
+    "deltaIndicator": "up"
+  },
+  {
+    "symbol": "BKNG",
+    "companyName": "Booking Holdings Inc. Common Stock",
+    "marketCap": "100,837,631,717",
+    "lastSalePrice": "$2455.87",
+    "netChange": "+82.00",
+    "percentageChange": "+3.45%",
+    "deltaIndicator": "up"
+  },
+  {
+    "symbol": "AVGO",
+    "companyName": "Broadcom Inc. Common Stock",
+    "marketCap": "200,601,197,957",
+    "lastSalePrice": "$487.35",
+    "netChange": "+2.42",
+    "percentageChange": "+0.5%",
+    "deltaIndicator": "up"
+  },
+  {
+    "symbol": "CDNS",
+    "companyName": "Cadence Design Systems, Inc. Common Stock",
+    "marketCap": "42,350,107,800",
+    "lastSalePrice": "$153.01",
+    "netChange": "+1.57",
+    "percentageChange": "+1.04%",
+    "deltaIndicator": "up"
+  },
+  {
+    "symbol": "CDW",
+    "companyName": "CDW Corporation Common Stock",
+    "marketCap": "25,534,282,619",
+    "lastSalePrice": "$185.71",
+    "netChange": "+3.69",
+    "percentageChange": "+2.03%",
+    "deltaIndicator": "up"
+  },
+  {
+    "symbol": "CERN",
+    "companyName": "Cerner Corporation Common Stock",
+    "marketCap": "20,791,505,875",
+    "lastSalePrice": "$70.34",
+    "netChange": "-0.18",
+    "percentageChange": "-0.26%",
+    "deltaIndicator": "down"
+  },
+  {
+    "symbol": "CHTR",
+    "companyName": "Charter Communications, Inc. Class A Common Stock New",
+    "marketCap": "151,231,984,560",
+    "lastSalePrice": "$738.08",
+    "netChange": "+10.52",
+    "percentageChange": "+1.45%",
+    "deltaIndicator": "up"
+  },
+  {
+    "symbol": "CHKP",
+    "companyName": "Check Point Software Technologies Ltd. Ordinary Shares",
+    "marketCap": "15,132,356,599",
+    "lastSalePrice": "$113.95",
+    "netChange": "+0.91",
+    "percentageChange": "+0.81%",
+    "deltaIndicator": "up"
+  },
+  {
+    "symbol": "CTAS",
+    "companyName": "Cintas Corporation Common Stock",
+    "marketCap": "40,284,886,337",
+    "lastSalePrice": "$387.32",
+    "netChange": "+6.66",
+    "percentageChange": "+1.75%",
+    "deltaIndicator": "up"
+  },
+  {
+    "symbol": "CSCO",
+    "companyName": "Cisco Systems, Inc. Common Stock (DE)",
+    "marketCap": "232,789,255,062",
+    "lastSalePrice": "$55.14",
+    "netChange": "+0.71",
+    "percentageChange": "+1.3%",
+    "deltaIndicator": "up"
+  },
+  {
+    "symbol": "CTSH",
+    "companyName": "Cognizant Technology Solutions Corporation Class A Common Stock",
+    "marketCap": "39,742,560,000",
+    "lastSalePrice": "$75.27",
+    "netChange": "+1.06",
+    "percentageChange": "+1.43%",
+    "deltaIndicator": "up"
+  },
+  {
+    "symbol": "CMCSA",
+    "companyName": "Comcast Corporation Class A Common Stock",
+    "marketCap": "262,578,866,871",
+    "lastSalePrice": "$57.21",
+    "netChange": "+1.28",
+    "percentageChange": "+2.29%",
+    "deltaIndicator": "up"
+  },
+  {
+    "symbol": "CPRT",
+    "companyName": "Copart, Inc. (DE) Common Stock",
+    "marketCap": "33,177,475,624",
+    "lastSalePrice": "$139.93",
+    "netChange": "+1.21",
+    "percentageChange": "+0.87%",
+    "deltaIndicator": "up"
+  },
+  {
+    "symbol": "COST",
+    "companyName": "Costco Wholesale Corporation Common Stock",
+    "marketCap": "198,083,402,250",
+    "lastSalePrice": "$448.33",
+    "netChange": "-1.02",
+    "percentageChange": "-0.23%",
+    "deltaIndicator": "down"
+  },
+  {
+    "symbol": "CRWD",
+    "companyName": "CrowdStrike Holdings, Inc. Class A Common Stock",
+    "marketCap": "56,881,562,173",
+    "lastSalePrice": "$249.27",
+    "netChange": "+3.49",
+    "percentageChange": "+1.42%",
+    "deltaIndicator": "up"
+  },
+  {
+    "symbol": "CSX",
+    "companyName": "CSX Corporation Common Stock",
+    "marketCap": "68,401,405,909",
+    "lastSalePrice": "$30.34",
+    "netChange": "+0.60",
+    "percentageChange": "+2.02%",
+    "deltaIndicator": "up"
+  },
+  {
+    "symbol": "DXCM",
+    "companyName": "DexCom, Inc. Common Stock",
+    "marketCap": "53,204,155,638",
+    "lastSalePrice": "$549.92",
+    "netChange": "+3.06",
+    "percentageChange": "+0.56%",
+    "deltaIndicator": "up"
+  },
+  {
+    "symbol": "DOCU",
+    "companyName": "DocuSign, Inc. Common Stock",
+    "marketCap": "50,708,077,995",
+    "lastSalePrice": "$257.77",
+    "netChange": "+0.34",
+    "percentageChange": "+0.13%",
+    "deltaIndicator": "up"
+  },
+  {
+    "symbol": "DLTR",
+    "companyName": "Dollar Tree Inc. Common Stock",
+    "marketCap": "22,036,864,827",
+    "lastSalePrice": "$97.98",
+    "netChange": "+2.26",
+    "percentageChange": "+2.36%",
+    "deltaIndicator": "up"
+  },
+  {
+    "symbol": "EBAY",
+    "companyName": "eBay Inc. Common Stock",
+    "marketCap": "45,445,401,328",
+    "lastSalePrice": "$69.91",
+    "netChange": "+0.24",
+    "percentageChange": "+0.34%",
+    "deltaIndicator": "up"
+  },
+  {
+    "symbol": "EA",
+    "companyName": "Electronic Arts Inc. Common Stock",
+    "marketCap": "40,863,101,667",
+    "lastSalePrice": "$143.59",
+    "netChange": "+1.34",
+    "percentageChange": "+0.94%",
+    "deltaIndicator": "up"
+  },
+  {
+    "symbol": "EXC",
+    "companyName": "Exelon Corporation Common Stock",
+    "marketCap": "46,730,622,821",
+    "lastSalePrice": "$47.79",
+    "netChange": "-0.55",
+    "percentageChange": "-1.14%",
+    "deltaIndicator": "down"
+  },
+  {
+    "symbol": "FB",
+    "companyName": "Facebook, Inc. Class A Common Stock",
+    "marketCap": "967,097,658,288",
+    "lastSalePrice": "$343.01",
+    "netChange": "+3.62",
+    "percentageChange": "+1.07%",
+    "deltaIndicator": "up"
+  },
+  {
+    "symbol": "FAST",
+    "companyName": "Fastenal Company Common Stock",
+    "marketCap": "29,702,531,830",
+    "lastSalePrice": "$51.68",
+    "netChange": "+0.07",
+    "percentageChange": "+0.14%",
+    "deltaIndicator": "up"
+  },
+  {
+    "symbol": "FISV",
+    "companyName": "Fiserv, Inc. Common Stock",
+    "marketCap": "72,696,833,613",
+    "lastSalePrice": "$109.78",
+    "netChange": "+1.28",
+    "percentageChange": "+1.18%",
+    "deltaIndicator": "up"
+  },
+  {
+    "symbol": "FOX",
+    "companyName": "Fox Corporation Class B Common Stock",
+    "marketCap": "21,572,358,154",
+    "lastSalePrice": "$37.68",
+    "netChange": "+0.56",
+    "percentageChange": "+1.51%",
+    "deltaIndicator": "up"
+  },
+  {
+    "symbol": "FOXA",
+    "companyName": "Fox Corporation Class A Common Stock",
+    "marketCap": "23,347,154,074",
+    "lastSalePrice": "$40.78",
+    "netChange": "+0.67",
+    "percentageChange": "+1.67%",
+    "deltaIndicator": "up"
+  },
+  {
+    "symbol": "GILD",
+    "companyName": "Gilead Sciences, Inc. Common Stock",
+    "marketCap": "85,961,175,206",
+    "lastSalePrice": "$68.56",
+    "netChange": "-1.29",
+    "percentageChange": "-1.85%",
+    "deltaIndicator": "down"
+  },
+  {
+    "symbol": "HON",
+    "companyName": "Honeywell International Inc. Common Stock",
+    "marketCap": "148,884,601,497",
+    "lastSalePrice": "$215.65",
+    "netChange": "+3.37",
+    "percentageChange": "+1.59%",
+    "deltaIndicator": "up"
+  },
+  {
+    "symbol": "IDXX",
+    "companyName": "IDEXX Laboratories, Inc. Common Stock",
+    "marketCap": "424,685,440,395",
+    "lastSalePrice": "$623.98",
+    "netChange": "+2.08",
+    "percentageChange": "+0.33%",
+    "deltaIndicator": "up"
+  },
+  {
+    "symbol": "ILMN",
+    "companyName": "Illumina, Inc. Common Stock",
+    "marketCap": "123,584,920,000",
+    "lastSalePrice": "$394.84",
+    "netChange": "-10.77",
+    "percentageChange": "-2.66%",
+    "deltaIndicator": "down"
+  },
+  {
+    "symbol": "INCY",
+    "companyName": "Incyte Corp. Common Stock",
+    "marketCap": "15,063,173,698",
+    "lastSalePrice": "$68.21",
+    "netChange": "-0.57",
+    "percentageChange": "-0.83%",
+    "deltaIndicator": "down"
+  },
+  {
+    "symbol": "INTC",
+    "companyName": "Intel Corporation Common Stock",
+    "marketCap": "218,510,020,000",
+    "lastSalePrice": "$53.86",
+    "netChange": "+0.58",
+    "percentageChange": "+1.09%",
+    "deltaIndicator": "up"
+  },
+  {
+    "symbol": "INTU",
+    "companyName": "Intuit Inc. Common Stock",
+    "marketCap": "148,553,816,618",
+    "lastSalePrice": "$543.97",
+    "netChange": "+4.46",
+    "percentageChange": "+0.83%",
+    "deltaIndicator": "up"
+  },
+  {
+    "symbol": "ISRG",
+    "companyName": "Intuitive Surgical, Inc. Common Stock",
+    "marketCap": "360,363,828,596",
+    "lastSalePrice": "$1009.50",
+    "netChange": "+15.35",
+    "percentageChange": "+1.54%",
+    "deltaIndicator": "up"
+  },
+  {
+    "symbol": "JD",
+    "companyName": "JD.com, Inc. American Depositary Shares",
+    "marketCap": "108,681,963,120",
+    "lastSalePrice": "$70.02",
+    "netChange": "-2.22",
+    "percentageChange": "-3.07%",
+    "deltaIndicator": "down"
+  },
+  {
+    "symbol": "KDP",
+    "companyName": "Keurig Dr Pepper Inc. Common Stock",
+    "marketCap": "47,066,012,337",
+    "lastSalePrice": "$33.20",
+    "netChange": "-0.96",
+    "percentageChange": "-2.81%",
+    "deltaIndicator": "down"
+  },
+  {
+    "symbol": "KLAC",
+    "companyName": "KLA Corporation Common Stock",
+    "marketCap": "50,920,594,689",
+    "lastSalePrice": "$335.02",
+    "netChange": "+0.51",
+    "percentageChange": "+0.15%",
+    "deltaIndicator": "up"
+  },
+  {
+    "symbol": "LRCX",
+    "companyName": "Lam Research Corporation Common Stock",
+    "marketCap": "80,219,537,654",
+    "lastSalePrice": "$569.73",
+    "netChange": "+0.58",
+    "percentageChange": "+0.1%",
+    "deltaIndicator": "up"
+  },
+  {
+    "symbol": "LULU",
+    "companyName": "lululemon athletica inc. Common Stock",
+    "marketCap": "52,103,260,951",
+    "lastSalePrice": "$401.37",
+    "netChange": "-3.33",
+    "percentageChange": "-0.82%",
+    "deltaIndicator": "down"
+  },
+  {
+    "symbol": "MAR",
+    "companyName": "Marriott International Class A Common Stock",
+    "marketCap": "50,792,622,781",
+    "lastSalePrice": "$155.97",
+    "netChange": "+7.88",
+    "percentageChange": "+5.32%",
+    "deltaIndicator": "up"
+  },
+  {
+    "symbol": "MRVL",
+    "companyName": "Marvell Technology, Inc. Common Stock",
+    "marketCap": "49,277,868,218",
+    "lastSalePrice": "$59.83",
+    "netChange": "-0.48",
+    "percentageChange": "-0.8%",
+    "deltaIndicator": "down"
+  },
+  {
+    "symbol": "MTCH",
+    "companyName": "Match Group, Inc. Common Stock",
+    "marketCap": "43,910,485,624",
+    "lastSalePrice": "$158.63",
+    "netChange": "+1.64",
+    "percentageChange": "+1.04%",
+    "deltaIndicator": "up"
+  },
+  {
+    "symbol": "MELI",
+    "companyName": "MercadoLibre, Inc. Common Stock",
+    "marketCap": "82,899,147,540",
+    "lastSalePrice": "$1667.60",
+    "netChange": "-11.80",
+    "percentageChange": "-0.7%",
+    "deltaIndicator": "down"
+  },
+  {
+    "symbol": "MCHP",
+    "companyName": "Microchip Technology Incorporated Common Stock",
+    "marketCap": "334,789,396,107",
+    "lastSalePrice": "$152.71",
+    "netChange": "-0.78",
+    "percentageChange": "-0.51%",
+    "deltaIndicator": "down"
+  },
+  {
+    "symbol": "MU",
+    "companyName": "Micron Technology, Inc. Common Stock",
+    "marketCap": "79,917,245,224",
+    "lastSalePrice": "$70.99",
+    "netChange": "+0.01",
+    "percentageChange": "+0.01%",
+    "deltaIndicator": "up"
+  },
+  {
+    "symbol": "MSFT",
+    "companyName": "Microsoft Corporation Common Stock",
+    "marketCap": "2,172,555,059,797",
+    "lastSalePrice": "$289.10",
+    "netChange": "+7.18",
+    "percentageChange": "+2.55%",
+    "deltaIndicator": "up"
+  },
+  {
+    "symbol": "MRNA",
+    "companyName": "Moderna, Inc. Common Stock",
+    "marketCap": "137,679,720,560",
+    "lastSalePrice": "$341.09",
+    "netChange": "-43.77",
+    "percentageChange": "-11.37%",
+    "deltaIndicator": "down"
+  },
+  {
+    "symbol": "MDLZ",
+    "companyName": "Mondelez International, Inc. Class A Common Stock",
+    "marketCap": "81,366,953,357",
+    "lastSalePrice": "$58.21",
+    "netChange": "+0.03",
+    "percentageChange": "+0.05%",
+    "deltaIndicator": "up"
+  },
+  {
+    "symbol": "MNST",
+    "companyName": "Monster Beverage Corporation",
+    "marketCap": "47,536,256,693",
+    "lastSalePrice": "$89.88",
+    "netChange": "+1.05",
+    "percentageChange": "+1.18%",
+    "deltaIndicator": "up"
+  },
+  {
+    "symbol": "NTES",
+    "companyName": "NetEase, Inc. American Depositary Shares",
+    "marketCap": "224,912,723,266",
+    "lastSalePrice": "$83.80",
+    "netChange": "-1.60",
+    "percentageChange": "-1.87%",
+    "deltaIndicator": "down"
+  },
+  {
+    "symbol": "NFLX",
+    "companyName": "Netflix, Inc. Common Stock",
+    "marketCap": "271,377,668,727",
+    "lastSalePrice": "$613.15",
+    "netChange": "+2.81",
+    "percentageChange": "+0.46%",
+    "deltaIndicator": "up"
+  },
+  {
+    "symbol": "NVDA",
+    "companyName": "NVIDIA Corporation Common Stock",
+    "marketCap": "518,550,000,000",
+    "lastSalePrice": "$207.42",
+    "netChange": "+0.26",
+    "percentageChange": "+0.13%",
+    "deltaIndicator": "up"
+  },
+  {
+    "symbol": "NXPI",
+    "companyName": "NXP Semiconductors N.V. Common Stock",
+    "marketCap": "51,141,867,003",
+    "lastSalePrice": "$192.89",
+    "netChange": "-2.98",
+    "percentageChange": "-1.52%",
+    "deltaIndicator": "down"
+  },
+  {
+    "symbol": "ORLY",
+    "companyName": "O'Reilly Automotive, Inc. Common Stock",
+    "marketCap": "41,677,189,121",
+    "lastSalePrice": "$604.44",
+    "netChange": "-6.62",
+    "percentageChange": "-1.08%",
+    "deltaIndicator": "down"
+  },
+  {
+    "symbol": "OKTA",
+    "companyName": "Okta, Inc. Class A Common Stock",
+    "marketCap": "36,822,116,091",
+    "lastSalePrice": "$238.08",
+    "netChange": "+0.74",
+    "percentageChange": "+0.31%",
+    "deltaIndicator": "up"
+  },
+  {
+    "symbol": "PCAR",
+    "companyName": "PACCAR Inc. Common Stock",
+    "marketCap": "27,582,925,994",
+    "lastSalePrice": "$79.45",
+    "netChange": "+0.53",
+    "percentageChange": "+0.67%",
+    "deltaIndicator": "up"
+  },
+  {
+    "symbol": "PAYX",
+    "companyName": "Paychex, Inc. Common Stock",
+    "marketCap": "41,525,441,363",
+    "lastSalePrice": "$115.15",
+    "netChange": "+2.70",
+    "percentageChange": "+2.4%",
+    "deltaIndicator": "up"
+  },
+  {
+    "symbol": "PYPL",
+    "companyName": "PayPal Holdings, Inc. Common Stock",
+    "marketCap": "310,972,258,498",
+    "lastSalePrice": "$264.65",
+    "netChange": "+4.44",
+    "percentageChange": "+1.71%",
+    "deltaIndicator": "up"
+  },
+  {
+    "symbol": "PTON",
+    "companyName": "Peloton Interactive, Inc. Class A Common Stock",
+    "marketCap": "26,056,124,525",
+    "lastSalePrice": "$86.71",
+    "netChange": "-0.34",
+    "percentageChange": "-0.39%",
+    "deltaIndicator": "down"
+  },
+  {
+    "symbol": "PEP",
+    "companyName": "PepsiCo, Inc. Common Stock",
+    "marketCap": "208,630,252,608",
+    "lastSalePrice": "$150.95",
+    "netChange": "+0.54",
+    "percentageChange": "+0.36%",
+    "deltaIndicator": "up"
+  },
+  {
+    "symbol": "PDD",
+    "companyName": "Pinduoduo Inc. American Depositary Shares",
+    "marketCap": "110,477,407,808",
+    "lastSalePrice": "$88.15",
+    "netChange": "-2.52",
+    "percentageChange": "-2.78%",
+    "deltaIndicator": "down"
+  },
+  {
+    "symbol": "QCOM",
+    "companyName": "QUALCOMM Incorporated Common Stock",
+    "marketCap": "145,184,880,000",
+    "lastSalePrice": "$128.71",
+    "netChange": "-0.27",
+    "percentageChange": "-0.21%",
+    "deltaIndicator": "down"
+  },
+  {
+    "symbol": "REGN",
+    "companyName": "Regeneron Pharmaceuticals, Inc. Common Stock",
+    "marketCap": "61,049,060,779",
+    "lastSalePrice": "$570.79",
+    "netChange": "-34.39",
+    "percentageChange": "-5.68%",
+    "deltaIndicator": "down"
+  },
+  {
+    "symbol": "ROST",
+    "companyName": "Ross Stores, Inc. Common Stock",
+    "marketCap": "39,477,604,607",
+    "lastSalePrice": "$111.09",
+    "netChange": "+2.24",
+    "percentageChange": "+2.06%",
+    "deltaIndicator": "up"
+  },
+  {
+    "symbol": "SGEN",
+    "companyName": "Seagen Inc. Common Stock",
+    "marketCap": "31,512,874,745",
+    "lastSalePrice": "$173.21",
+    "netChange": "+3.41",
+    "percentageChange": "+2.01%",
+    "deltaIndicator": "up"
+  },
+  {
+    "symbol": "SIRI",
+    "companyName": "Sirius XM Holdings Inc. Common Stock",
+    "marketCap": "24,788,667,243",
+    "lastSalePrice": "$6.12",
+    "netChange": "+0.02",
+    "percentageChange": "+0.33%",
+    "deltaIndicator": "up"
+  },
+  {
+    "symbol": "SWKS",
+    "companyName": "Skyworks Solutions, Inc. Common Stock",
+    "marketCap": "27,070,557,090",
+    "lastSalePrice": "$163.92",
+    "netChange": "-0.86",
+    "percentageChange": "-0.52%",
+    "deltaIndicator": "down"
+  },
+  {
+    "symbol": "SPLK",
+    "companyName": "Splunk Inc. Common Stock",
+    "marketCap": "23,446,757,702",
+    "lastSalePrice": "$145.14",
+    "netChange": "+0.43",
+    "percentageChange": "+0.3%",
+    "deltaIndicator": "up"
+  },
+  {
+    "symbol": "SBUX",
+    "companyName": "Starbucks Corporation Common Stock",
+    "marketCap": "133,143,972,000",
+    "lastSalePrice": "$112.92",
+    "netChange": "+2.61",
+    "percentageChange": "+2.37%",
+    "deltaIndicator": "up"
+  },
+  {
+    "symbol": "SNPS",
+    "companyName": "Synopsys, Inc. Common Stock",
+    "marketCap": "46,130,558,057",
+    "lastSalePrice": "$302.49",
+    "netChange": "+3.08",
+    "percentageChange": "+1.03%",
+    "deltaIndicator": "up"
+  },
+  {
+    "symbol": "TMUS",
+    "companyName": "T-Mobile US, Inc. Common Stock",
+    "marketCap": "158,192,210,470",
+    "lastSalePrice": "$126.76",
+    "netChange": "-1.00",
+    "percentageChange": "-0.78%",
+    "deltaIndicator": "down"
+  },
+  {
+    "symbol": "TSLA",
+    "companyName": "Tesla, Inc. Common Stock",
+    "marketCap": "776,590,071,888",
+    "lastSalePrice": "$775.22",
+    "netChange": "-0.26",
+    "percentageChange": "-0.03%",
+    "deltaIndicator": "down"
+  },
+  {
+    "symbol": "TXN",
+    "companyName": "Texas Instruments Incorporated Common Stock",
+    "marketCap": "178,908,860,280",
+    "lastSalePrice": "$193.79",
+    "netChange": "+1.58",
+    "percentageChange": "+0.82%",
+    "deltaIndicator": "up"
+  },
+  {
+    "symbol": "KHC",
+    "companyName": "The Kraft Heinz Company Common Stock",
+    "marketCap": "44,873,840,148",
+    "lastSalePrice": "$36.68",
+    "netChange": "-0.14",
+    "percentageChange": "-0.38%",
+    "deltaIndicator": "down"
+  },
+  {
+    "symbol": "TCOM",
+    "companyName": "Trip.com Group Limited American Depositary Shares",
+    "marketCap": "19,761,148,772",
+    "lastSalePrice": "$31.00",
+    "netChange": "+0.25",
+    "percentageChange": "+0.81%",
+    "deltaIndicator": "up"
+  },
+  {
+    "symbol": "VRSN",
+    "companyName": "VeriSign, Inc. Common Stock",
+    "marketCap": "23,122,208,432",
+    "lastSalePrice": "$206.68",
+    "netChange": "+1.67",
+    "percentageChange": "+0.81%",
+    "deltaIndicator": "up"
+  },
+  {
+    "symbol": "VRSK",
+    "companyName": "Verisk Analytics, Inc. Common Stock",
+    "marketCap": "32,268,480,295",
+    "lastSalePrice": "$199.99",
+    "netChange": "-0.28",
+    "percentageChange": "-0.14%",
+    "deltaIndicator": "down"
+  },
+  {
+    "symbol": "VRTX",
+    "companyName": "Vertex Pharmaceuticals Incorporated Common Stock",
+    "marketCap": "46,787,910,858",
+    "lastSalePrice": "$180.35",
+    "netChange": "-1.04",
+    "percentageChange": "-0.57%",
+    "deltaIndicator": "down"
+  },
+  {
+    "symbol": "WBA",
+    "companyName": "Walgreens Boots Alliance, Inc. Common Stock",
+    "marketCap": "40,481,405,921",
+    "lastSalePrice": "$46.80",
+    "netChange": "-0.25",
+    "percentageChange": "-0.53%",
+    "deltaIndicator": "down"
+  },
+  {
+    "symbol": "WDAY",
+    "companyName": "Workday, Inc. Class A Common Stock",
+    "marketCap": "63,128,400,000",
+    "lastSalePrice": "$254.55",
+    "netChange": "+4.66",
+    "percentageChange": "+1.86%",
+    "deltaIndicator": "up"
+  },
+  {
+    "symbol": "XEL",
+    "companyName": "Xcel Energy Inc. Common Stock",
+    "marketCap": "33,646,906,321",
+    "lastSalePrice": "$62.49",
+    "netChange": "-0.01",
+    "percentageChange": "-0.02%",
+    "deltaIndicator": "down"
+  },
+  {
+    "symbol": "XLNX",
+    "companyName": "Xilinx, Inc. Common Stock",
+    "marketCap": "37,582,990,978",
+    "lastSalePrice": "$151.87",
+    "netChange": "+0.88",
+    "percentageChange": "+0.58%",
+    "deltaIndicator": "up"
+  },
+  {
+    "symbol": "ZM",
+    "companyName": "Zoom Video Communications, Inc. Class A Common Stock",
+    "marketCap": "79,484,685,064",
+    "lastSalePrice": "$267.51",
+    "netChange": "+6.01",
+    "percentageChange": "+2.3%",
+    "deltaIndicator": "up"
   }
 ]

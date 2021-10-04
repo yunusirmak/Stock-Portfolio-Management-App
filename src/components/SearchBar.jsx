@@ -13,7 +13,7 @@ function SearchBar() {
 
     setWordEntered(searchWord);
     const newFilter = BookData.filter((value) => {
-      return value.title.toLowerCase().includes(searchWord.toLowerCase());
+      return value.companyName.toLowerCase().includes(searchWord.toLowerCase());
     });
 
     if (searchWord === "") {
@@ -50,7 +50,7 @@ function SearchBar() {
           {filteredData.slice(0, 15).map((value, key) => {
             return (
               <a className="dataItem" href={value.link} target="_blank">
-                <p>{value.title} </p>
+                <p>{value.companyName} </p>
               </a>
             );
           })}
