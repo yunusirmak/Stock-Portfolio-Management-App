@@ -23,6 +23,7 @@ function StockModal(props) {
           ...prevUsers[0],
           balance: prevUsers[0].balance - boughtStock.total,
           stocks: [...prevUsers[0].stocks, boughtStock],
+          totalStock: prevUsers[0].totalStock - boughtStock.amount,
         },
       ];
     });

@@ -27,6 +27,7 @@ function Register() {
         [name]: value,
         balance: 10000,
         stocks: [],
+        totalStock: 0,
       };
     });
   }

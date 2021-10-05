@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Table from "react-bootstrap/Table";
 import useLocalStorage from "../hooks/useLocalStorage";
 import Button from "react-bootstrap/Button";
@@ -22,8 +22,9 @@ function PortfolioTable() {
             <th> </th>
             <th>Symbol</th>
             <th>Name</th>
+            <th>Buy Price</th>
             <th>Stocks</th>
-            <th>Current Value</th>
+            <th>Holdings</th>
             <th></th>
             <th></th>
           </tr>
@@ -37,8 +38,9 @@ function PortfolioTable() {
                 </td>
                 <td>{stock.symbol}</td>
                 <td>{stock.name}</td>
+                <td>{(stock.total / stock.amount).toFixed(2)}</td>
                 <td>{stock.amount}</td>
-                <td>current value</td>
+                <td>{stock.total}</td>
                 <td>
                   <Button style={{ backgroundColor: "green" }}>BUY</Button>
                 </td>
@@ -49,6 +51,18 @@ function PortfolioTable() {
             );
           })}
         </tbody>
+        <tfoot>
+          <tr>
+            <th></th>
+            <th>TOTAL</th>
+            <th></th>
+            <th></th>
+            <th>{Math.abs(users[0].totalStock)}</th>
+            <th>{(10000 - users[0].balance).toFixed(2)}</th>
+            <th></th>
+            <th></th>
+          </tr>
+        </tfoot>
       </Table>
     </div>
   );

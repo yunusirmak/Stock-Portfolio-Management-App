@@ -7,12 +7,8 @@ function User() {
   const [users, setUsers] = useLocalStorage("users", [
     JSON.parse(window.localStorage.getItem("users")),
   ]);
-  function handleSignOut(event) {
-    localStorage.setItem("isAuth", false);
-    window.location.reload();
-    event.preventDefault();
-  }
   function decreaseBalance(event) {
+    console.log(users);
     setUsers((prevUsers) => {
       return [
         {
@@ -24,14 +20,12 @@ function User() {
   }
   return (
     <div>
-      <h1>You are logged in {users[0].name}!</h1>
-      <h1>Your balance is {users[0].balance.toFixed(2)}$!</h1>
+      <br />
+      <SearchBar />
+      <PortfolioTable />
       <button name="balance" onClick={decreaseBalance}>
         -$
       </button>
-      <button onClick={handleSignOut}>Sign Out</button>
-      <SearchBar />
-      <PortfolioTable />
     </div>
   );
 }
