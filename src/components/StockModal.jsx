@@ -16,6 +16,7 @@ function StockModal(props) {
   const [boughtStock, setBoughtStock] = useState(
     JSON.parse(window.localStorage.getItem("users[0].stocks"))
   );
+  const [balanceLow, setBalanceLow] = useState(false);
   useEffect(() => {
     setUsers((prevUsers) => {
       return [
@@ -30,13 +31,16 @@ function StockModal(props) {
     console.log(users);
   }, [boughtStock]);
   function buyStock(event) {
-    setBoughtStock({
-      name: props.stockName,
-      symbol: props.stockSymbol,
-      amount: total,
-      total: (total * price).toFixed(2),
-    });
-    window.location.reload();
+    if (users[0].balance > total * price) {
+      setBoughtStock({
+        name: props.stockName,
+        symbol: props.stockSymbol,
+        amount: total,
+        total: (total * price).toFixed(2),
+      });
+      setBalanceLow(false);
+      window.location.reload();
+    } else setBalanceLow(true);
   }
   return (
     <div>
@@ -54,6 +58,7 @@ function StockModal(props) {
             onClick={() => {
               props.onHide();
               setTotal(0);
+              setBalanceLow(false);
             }}
             type="button"
             class="btn-close"
@@ -79,6 +84,12 @@ function StockModal(props) {
               step="1"
             />
           </h5>
+          {balanceLow && (
+            <div>
+              <br />
+              <h5 style={{ color: "red" }}>Balance is not enough!!!</h5>
+            </div>
+          )}
         </ModalBody>
         <ModalFooter>
           <h4>
