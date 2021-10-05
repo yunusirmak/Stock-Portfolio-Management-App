@@ -9,6 +9,12 @@ function Header() {
   const [isAuth, setisAuth] = useLocalStorage("isAuth", [
     JSON.parse(window.localStorage.getItem("isAuth")),
   ]);
+  const admin = [{ mail: "admin", password: "admin" }];
+  if (JSON.parse(window.localStorage.getItem("isAuth")) === null) {
+    localStorage.setItem("isAuth", false);
+    localStorage.setItem("users", JSON.stringify(admin));
+    window.location.reload();
+  }
   function handleSignOut(event) {
     localStorage.setItem("isAuth", false);
     window.location.reload();
@@ -28,11 +34,28 @@ function Header() {
                   </a>
                 </div>
                 <div class="mx-auto order-0">
-                  <h6 class=" mx-auto" style={{ width: "200px" }} href="#">
-                    Total Worth: $10000
+                  <h6
+                    class=" mx-auto"
+                    style={{
+                      width: "200px",
+                      fontFamily: "Montserrat",
+                      textAlign: "center",
+                    }}
+                    href="#"
+                  >
+                    <small>Total Worth:</small> <strong>$10000</strong>
                   </h6>
-                  <h6 class=" mx-auto" style={{ width: "200px" }} href="#">
-                    Cash Balance: ${users[0].balance.toFixed(2)}
+                  <h6
+                    class=" mx-auto"
+                    style={{
+                      width: "200px",
+                      fontFamily: "Montserrat",
+                      textAlign: "center",
+                    }}
+                    href="#"
+                  >
+                    <small>Cash Balance:</small>{" "}
+                    <strong>${users[0].balance.toFixed(2)}</strong>
                   </h6>
                   <button
                     class="navbar-toggler"
@@ -46,8 +69,15 @@ function Header() {
                 <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
                   <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                      <a class="nav-link" href="/">
-                        {users[0].name}
+                      <a
+                        class="nav-link"
+                        href="/"
+                        style={{
+                          fontFamily: "Montserrat",
+                          textAlign: "center",
+                        }}
+                      >
+                        Welcome, {users[0].name}!
                       </a>
                     </li>
                   </ul>

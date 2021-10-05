@@ -31,7 +31,7 @@ function StockModal(props) {
     console.log(users);
   }, [boughtStock]);
   function buyStock(event) {
-    if (users[0].balance > total * price) {
+    if (users[0].balance > total * price && total > 0) {
       setBoughtStock({
         name: props.stockName,
         symbol: props.stockSymbol,
@@ -87,7 +87,9 @@ function StockModal(props) {
           {balanceLow && (
             <div>
               <br />
-              <h5 style={{ color: "red" }}>Balance is not enough!!!</h5>
+              <h5 style={{ color: "red" }}>
+                Change your amount according to your balance!
+              </h5>
             </div>
           )}
         </ModalBody>

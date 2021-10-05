@@ -3,6 +3,7 @@ import useLocalStorage from "../hooks/useLocalStorage";
 
 function Register() {
   const [isAuth, setisAuth] = useLocalStorage("isAuth", false);
+  const [invalidSign, setInvalidSign] = useState(false);
   const [isSignUp, setSignUp] = useState(false);
 
   const [credential, setCredential] = useState({
@@ -53,11 +54,13 @@ function Register() {
     ) {
       console.log("Credentials are true!");
       setisAuth(true);
+      setInvalidSign(false);
       console.log(isAuth);
       window.location.reload();
     } else {
       console.log("Credentials are false!");
       setisAuth(false);
+      setInvalidSign(true);
     }
     event.preventDefault();
   }
@@ -119,6 +122,9 @@ function Register() {
               placeholder="Password"
             />
             <br />
+            {invalidSign && (
+              <p>You have entered an invalid username or password</p>
+            )}
             <button onClick={handleSignIn} class="register-button">
               Sign In
             </button>
